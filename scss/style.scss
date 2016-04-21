@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One:700);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+$greyish: #F0F2FF;
+$black: #000;
+$orange: #EDA232;
+$white: #fff;
+$font-p: 'Roboto', sans-serif;
+$font-top: 'Passion One', sans-serif;
+
+body {
+   background-image: url(http://pre07.deviantart.net/f8ac/th/pre/f/2016/097/5/9/2_by_usingtheforce-d9y224d.jpg);
+  background-size: cover;
+  -moz-background-size: cover;
+  background-color: $black;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  max-width: 100%; 
+  min-height: 100%;
+  
+}
+.fondillo {
+  position: relative;
+}
+svg {  
+  max-width: 50%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  width:100%;
+}
+.head-logo {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  height: 300px;
+  width: 250px;
+  background-color: $black;
+  opacity: 0.85;
+  border-radius: 300px; 
+}
+h1 {
+  font-size: 5em;
+  font-family: $font-top;
+  color: $orange;
+  padding: 5px;
+}
+h2 {
+  font-size: 3em;
+  font-family: $font-p;
+  color: $white;
+}
+h3 {
+  font-size: 1.6em;
+  font-family: $font-p;
+  color: $orange;
+}
+p {
+  font-size: 1em;
+  font-family: $font-p;
+  color: $greyish;
+}
+.row {
+  padding: 5%;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+a:hover {
+    color: $orange;
+    background-color: none;
+    text-decoration: none;
+}
+
+a {
+  color: $white;
+  font-family: $font-p;
+}
+a:visited {
+  color: $white;
+}
+li {
+  color: $white;
+  display: inline-block;
+  overflow: hidden;
+  padding: 20px;
+}
+.pie {
+  position: center bottom;
+  padding: 10px;
+  font-size: 0.8em;
+}
